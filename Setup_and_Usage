@@ -1,0 +1,34 @@
+This document explains the requirements to be able to use this program as well as how to use this program.
+
+python3 inject_retrieval.py
+
+Setup: 
+The following libraries are required for the program to function as expected:
+  requests
+  datetime
+  jsbeautifier
+  os
+  time
+  selenium
+
+If you don't have the above libraries, the below commands can be used to install them:
+Note: This has been written in python3 and thus the libraries should be imported into python3
+  requests: $ pip3 install requests
+  datetime: $ pip3 install datetime
+  jsbeautifier: $ pip3 install jsbeautifier
+  os: should already be installed
+  time:  should already be installed
+  selenium: $ pip3 install selenium
+  
+With above sorted out, you now need to download geckodriver. This allows you to execute the JS necessary to deobfuscate the web inject. Geckodriver can be downloaded directly from the mozilla github repo geckodriver:
+
+https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+
+At the bottom of the page, find the geckodriver for the operating system that you are running and download it. Put this geckodriver file into the same directory as the inject_retrieval.py file.
+
+The setup is now complete.
+
+
+Usage:
+In inject_retrieval.py, in the function define_URLs(), you can add more urls to the targeted_urls dict (Note that if the malware is not actually targetting the URLs in the dictionary then the program will fail).
+If you have access to urls hosting malware then you can put them into the malware_urls dict. 
