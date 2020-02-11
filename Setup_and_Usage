@@ -3,7 +3,7 @@ This document explains the requirements to be able to use this program as well a
 python3 inject_retrieval.py
 
 Setup: 
-The following libraries are required for the program to function as expected:
+The following python libraries are required for the program to function as expected:
   requests
   datetime
   jsbeautifier
