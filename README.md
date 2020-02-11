@@ -1,5 +1,7 @@
 # Aus-Banking-Trojan-Deobfuscation
-Program to de-obfuscate web injects being dropped by Gozi and Danabot that is impacting Australians.
+Program to de-obfuscate web injects being dropped by Gozi and Danabot that is creating fraud impacting Australians and Australian Banks.
+
+The aim of this program is to assist Australian Banks by allowing them to uplift their malware detection capabilities by having easy and automatable access to the de-obfuscated web inject.
 
 Targets: 
   Gozi,
