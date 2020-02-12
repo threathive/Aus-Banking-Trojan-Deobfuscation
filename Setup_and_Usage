@@ -22,7 +22,7 @@ Note: This has been written in python3 and thus the libraries should be imported
   
 With above sorted out, you now need to download geckodriver. This allows you to execute the JS necessary to deobfuscate the web inject. Geckodriver can be downloaded directly from the mozilla github repo geckodriver:
 
-https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+https://github.com/mozilla/geckodriver/releases/tag/v0.26.0 - look for the most recent version of geckodriver
 
 At the bottom of the page, find the geckodriver for the operating system that you are running and download it. Put this geckodriver file into the same directory as the inject_retrieval.py file.
 
