@@ -14,12 +14,12 @@ Tested and Working on:
 This program can deobfuscate the malware web injects that Gozi and Danabot would retrieve and inject into your browser session.
 
 Targeted Banks:
-  ANZ
-  Bank of Melbourne
-  Bank of South Australia
-  Commonwealth Bank
-  NAB
-  St George's Bank
+  ANZ,
+  Bank of Melbourne,
+  Bank of South Australia,
+  Commonwealth Bank,
+  NAB,
+  St George's Bank,
   Westpac
 
 No URLs that are hosting web injects are included in the source code. If you have a use for this program you should probably already know the URLs hosting the injects and you can add them in as explained in the Setup_and_Usage doc.
